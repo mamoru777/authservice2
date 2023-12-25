@@ -1,0 +1,96 @@
+syntax = "proto3";
+
+package api;
+
+option go_package = "github.com/mamoru777/authservice2/pkg/gateway-api";
+
+import "google/api/annotations.proto";
+import "google/api/field_behavior.proto";
+import "validate/validate.proto";
+
+service UsrService {
+  rpc SignUp(SignUpRequest) returns (SignUpResponse) {
+    option (google.api.http) = {
+      post: "/usr/signup"
+      body: "*"
+    };
+  }
+  rpc SignIn(SignInRequest) returns (SignInResponse) {
+    option (google.api.http) = {
+      get: "/usr/signin"
+    };
+  }
+  rpc UpdateAccessToken(UpdateAccessTokenRequest) returns (UpdateAccessTokenResponse) {
+    option (google.api.http) = {
+      get: "/usr/updatetoken"
+    };
+  }
+  rpc IsLoginExist(IsLoginExistRequest) returns (IsLoginExistResponse) {
+    option (google.api.http) = {
+      get: "/usr/isloginexist"
+    };
+  }
+  rpc IsEmailExist(IsEmailExistRequest) returns (IsEmailExistResponse) {
+    option (google.api.http) = {
+      get: "/usr/isemailexist"
+    };
+  }
+  rpc ChangeStatus(ChangeStatusRequest) returns (ChangeStatusResponse) {
+    option (google.api.http) = {
+      post: "/usr/changestatus"
+      body: "*"
+    };
+  }
+}
+
+message SignUpRequest {
+  string login = 1 [(validate.rules).string.min_len = 4,(google.api.field_behavior) = REQUIRED];
+  string password = 2 [(validate.rules).string.min_len = 6,(google.api.field_behavior) = REQUIRED];
+  string email = 3 [(google.api.field_behavior) = REQUIRED];
+}
+
+message SignUpResponse {}
+
+message SignInRequest {
+  string login = 1 [(validate.rules).string.min_len = 4,(google.api.field_behavior) = REQUIRED];
+  string password = 2 [(validate.rules).string.min_len = 6,(google.api.field_behavior) = REQUIRED];
+}
+
+message SignInResponse {
+  string access_token = 1;
+  string refresh_token = 2;
+  bool isSignedUp = 3;
+  bool isExist = 4;
+}
+
+message UpdateAccessTokenRequest {
+  string refresh_token = 1 [(google.api.field_behavior) = REQUIRED];
+  string userid = 2 [(google.api.field_behavior) = REQUIRED];
+}
+
+message UpdateAccessTokenResponse {
+  string access_token = 1;
+  string refresh_token = 2;
+}
+
+message IsLoginExistRequest {
+  string login = 1;
+}
+
+message IsLoginExistResponse {
+  bool isExist = 1;
+}
+
+message IsEmailExistRequest {
+  string email = 1;
+}
+
+message IsEmailExistResponse {
+  bool isExist = 1;
+}
+
+message ChangeStatusRequest {
+  string login = 1;
+}
+
+message ChangeStatusResponse {}

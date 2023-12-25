@@ -1,0 +1,44 @@
+
+{"level":"info","msg":"запуск grpc сервера по адресу: :13999","time":"2023-11-21T12:46:13+04:00"}
+{"level":"info","msg":"запуск http сервера по адресу: :13998","time":"2023-11-21T12:46:13+04:00"}
+{"level":"info","msg":"запуск grpc сервера по адресу: :13999","time":"2023-11-21T12:47:40+04:00"}
+{"level":"info","msg":"запуск http сервера по адресу: :13998","time":"2023-11-21T12:47:40+04:00"}
+{"level":"info","msg":"запуск grpc сервера по адресу: :13999","time":"2023-11-21T12:52:13+04:00"}
+{"level":"info","msg":"запуск http сервера по адресу: :13998","time":"2023-11-21T12:52:13+04:00"}
+{"level":"info","msg":"запуск grpc сервера по адресу: :13999","time":"2023-11-21T13:16:09+04:00"}
+{"level":"info","msg":"запуск http сервера по адресу: :13998","time":"2023-11-21T13:16:09+04:00"}
+{"level":"error","msg":"Не получилось извлечь xRequestId из контекста","time":"2023-11-21T13:29:53+04:00"}
+{"level":"info","msg":"запуск grpc сервера по адресу: :13999","time":"2023-11-21T13:32:14+04:00"}
+{"level":"info","msg":"запуск http сервера по адресу: :13998","time":"2023-11-21T13:32:14+04:00"}
+{"level":"info","msg":"Использована функиця обновления access token","time":"2023-11-21T13:32:29+04:00"}
+{"level":"info","msg":"Новый access token -  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA1NjI3NDksInVzZXJfaWQiOiJhN2FkZDVkNy01YzUxLTQ3OWYtOTZhYS1jMzRhN2RmNWExNmQifQ.PiVn_wq_isW0wGROIzLeXNPAfyLGTjtWkDDmKnx75bo","time":"2023-11-21T13:32:29+04:00"}
+{"level":"info","msg":"запуск grpc сервера по адресу: :13999","time":"2023-11-21T13:45:40+04:00"}
+{"level":"info","msg":"запуск http сервера по адресу: :13998","time":"2023-11-21T13:45:40+04:00"}
+{"level":"info","msg":"Использована функиця обновления access token","time":"2023-11-21T13:46:53+04:00"}
+{"level":"info","msg":"Новый access token -  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA1NjM2MTMsInVzZXJfaWQiOiJhN2FkZDVkNy01YzUxLTQ3OWYtOTZhYS1jMzRhN2RmNWExNmQifQ.Tk_ckRP5Lw805zrAnvyXkZBRoXNIs12cCpF8we6TNJg","time":"2023-11-21T13:46:53+04:00"}
+{"level":"info","msg":"запуск http сервера по адресу: :13998","time":"2023-11-21T13:49:19+04:00"}
+{"level":"info","msg":"запуск grpc сервера по адресу: :13999","time":"2023-11-21T13:49:19+04:00"}
+{"level":"info","msg":"Использована функиця обновления access token","time":"2023-11-21T13:50:36+04:00"}
+{"level":"info","msg":"Новый access token -  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA1NjM4MzYsInVzZXJfaWQiOiJhN2FkZDVkNy01YzUxLTQ3OWYtOTZhYS1jMzRhN2RmNWExNmQifQ.cYBiGTAswrHbwKek-uFDt07qp4h5whEsucx7bT1D5U4","time":"2023-11-21T13:50:36+04:00"}
+{"level":"info","msg":"Использована функиця обновления access token","time":"2023-11-21T13:50:44+04:00"}
+{"level":"info","msg":"Новый access token -  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA1NjM4NDQsInVzZXJfaWQiOiJlNjQwYzY2ZS0zYjIzLTQwNmItYmQ1MS03MjE0MzkxNzUyODIifQ.wLUsOkKpbqmMVZlZRArgdKuIp_T9Z6SM5MbxPqIeDz0","time":"2023-11-21T13:50:44+04:00"}
+{"level":"info","msg":"запуск grpc сервера по адресу: :13999","time":"2023-11-21T13:52:11+04:00"}
+{"level":"info","msg":"запуск http сервера по адресу: :13998","time":"2023-11-21T13:52:11+04:00"}
+{"level":"info","msg":"Запрос №  3fe18dfe-f363-4501-9fe5-24e5651a4fdb   Использована функиця обновления access token","time":"2023-11-21T13:52:40+04:00"}
+{"level":"info","msg":"Запрос №  3fe18dfe-f363-4501-9fe5-24e5651a4fdb   Новый access token -  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA1NjM5NjAsInVzZXJfaWQiOiJiNWUxMDQ5YS1kYWUyLTQyYTctODJmMy05NTM3ZWY5NjU2MTIifQ.g9v-wtMzl2Sme8VJaxGb50FppuOH_pSiYL4-yQRRfz4","time":"2023-11-21T13:52:40+04:00"}
+{"level":"info","msg":"запуск grpc сервера по адресу: :13999","time":"2023-11-23T14:01:17+04:00"}
+{"level":"info","msg":"запуск http сервера по адресу: :13998","time":"2023-11-23T14:01:17+04:00"}
+{"level":"info","msg":"Запрос №  c8dac4bc-c443-42df-9735-66a726cbbbf4   Использована функиця обновления access token","time":"2023-11-23T14:19:38+04:00"}
+{"level":"info","msg":"Запрос №  c8dac4bc-c443-42df-9735-66a726cbbbf4   Новый access token -  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA3MzgzNzgsInVzZXJfaWQiOiJhN2FkZDVkNy01YzUxLTQ3OWYtOTZhYS1jMzRhN2RmNWExNmQifQ.LDumPCnx8hr9oEDXZw_mTrFMLw5SBYN-vAiSvfQs_Hk","time":"2023-11-23T14:19:38+04:00"}
+{"level":"info","msg":"Запрос №  ddbf840a-92bd-4605-a149-c4258a8bc1bf   Использована функиця обновления access token","time":"2023-11-23T14:19:43+04:00"}
+{"level":"info","msg":"Запрос №  ddbf840a-92bd-4605-a149-c4258a8bc1bf   Новый access token -  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA3MzgzODMsInVzZXJfaWQiOiJlNjQwYzY2ZS0zYjIzLTQwNmItYmQ1MS03MjE0MzkxNzUyODIifQ.txd-QY2QHe-EL4L3QjUUZfgSTu0ffONPvGBm6CV59dI","time":"2023-11-23T14:19:43+04:00"}
+{"level":"info","msg":"Запрос №  2d2bedc0-c8e5-4344-b7c3-205e45d749f1   Использована функиця обновления access token","time":"2023-11-23T14:20:14+04:00"}
+{"level":"info","msg":"Запрос №  2d2bedc0-c8e5-4344-b7c3-205e45d749f1   Новый access token -  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA3Mzg0MTQsInVzZXJfaWQiOiJhN2FkZDVkNy01YzUxLTQ3OWYtOTZhYS1jMzRhN2RmNWExNmQifQ.g-764jB8QZGBX0n-PMxo5eE2dDEePOhNrz-u83x16fU","time":"2023-11-23T14:20:14+04:00"}
+{"level":"info","msg":"Запрос №  b18a1053-d4a1-4ec3-96a0-bceb74e56b7c   Использована функиця обновления access token","time":"2023-11-23T14:20:16+04:00"}
+{"level":"info","msg":"Запрос №  b18a1053-d4a1-4ec3-96a0-bceb74e56b7c   Новый access token -  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA3Mzg0MTYsInVzZXJfaWQiOiJlNjQwYzY2ZS0zYjIzLTQwNmItYmQ1MS03MjE0MzkxNzUyODIifQ.yD83y9XVKLX6Qv-DaewxsQY_R8-fJ6khVR-CWuYQ85k","time":"2023-11-23T14:20:16+04:00"}
+{"level":"info","msg":"Запрос №  f3ec3733-c30c-4f49-b5c4-dc0ab918e75b   Использована функиця обновления access token","time":"2023-11-23T14:20:30+04:00"}
+{"level":"info","msg":"Запрос №  f3ec3733-c30c-4f49-b5c4-dc0ab918e75b   Новый access token -  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA3Mzg0MzAsInVzZXJfaWQiOiJiNWUxMDQ5YS1kYWUyLTQyYTctODJmMy05NTM3ZWY5NjU2MTIifQ.3MnU-cThNoyYurRwIjGYju1qoT6fEtz_YPwII6Usrmo","time":"2023-11-23T14:20:30+04:00"}
+{"level":"info","msg":"Запрос №  36dd0d58-3949-4f20-a0d8-88f652ff7f6f   Использована функиця обновления access token","time":"2023-11-23T14:20:32+04:00"}
+{"level":"info","msg":"Запрос №  36dd0d58-3949-4f20-a0d8-88f652ff7f6f   Новый access token -  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA3Mzg0MzIsInVzZXJfaWQiOiIzODkyOWU1MC0yNmVlLTQ0M2UtYmE4OC1hMGJiNWVjMDcwNWIifQ.GtT8a8kBhHTzUlI6zPxNEW2j3bbt9nLVg2_6eYsggEY","time":"2023-11-23T14:20:32+04:00"}
+{"level":"info","msg":"запуск grpc сервера по адресу: :13999","time":"2023-12-12T14:06:11+04:00"}
+{"level":"info","msg":"запуск http сервера по адресу: :13998","time":"2023-12-12T14:06:11+04:00"}

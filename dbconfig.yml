@@ -1,0 +1,10 @@
+docker:
+  dialect: postgres
+  datasource: dbname=authdb user=postgres password=159753 sslmode=disable port=5555
+  dir: migrations
+  table: migrations
+local:
+  dialect: postgres
+  datasource: dbname=authdb user=postgres password=159753 sslmode=disable port=5432
+  dir: migrations
+  table: migrations

@@ -1,0 +1,43 @@
+services:
+  postgres:
+    build:
+      context: .
+      dockerfile: DockerfileBd
+    environment:
+      POSTGRES_DB: "authdb"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "159753"
+    ports:
+    - "5555:5432"
+
+  elk:
+    build:
+      context: .
+      dockerfile: DockerfileElk
+    container_name: elk
+    ports:
+      - "5601:5601"
+      - "9200:9200"
+      - "5044:5044"
+    networks:
+      - elk-network
+
+  filebeat:
+    build:
+      context: .
+      dockerfile: DockerfileFilebeat
+    container_name: filebeat_auth
+    networks:
+      - elk-network
+    depends_on:
+      - elk
+    volumes:
+      - ../logfile.log:/usr/share/filebeat/logfile.log
+
+networks:
+  elk-network:
+    driver: bridge
+    external: true
+
+
+
