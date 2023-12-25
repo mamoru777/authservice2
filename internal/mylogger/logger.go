@@ -1,8 +1,9 @@
 package mylogger
 
 import (
+	"github.com/mamoru777/foundation2/loginit"
 	"github.com/sirupsen/logrus"
-	"gitlab.com/mediasoft-internship/internship/mamoru777/foundation/loginit"
+
 	"os"
 )
 
